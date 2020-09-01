@@ -5,7 +5,9 @@ namespace OnlinePOSLib
 {
     public static class EasterCalculator
     {
- 
+
+        private static string ged;
+
         public static DateTime NextSunday(DateTime aDate)
         {
             return aDate.AddDays(NumberOfDaysTilSunday(aDate.DayOfWeek));
