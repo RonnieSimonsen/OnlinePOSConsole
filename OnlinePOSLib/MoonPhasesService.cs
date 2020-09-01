@@ -6,6 +6,8 @@ namespace OnlinePOSLib
 {
     public static class MoonPhasesService
     {
+        public static int MyProperty { get; }
+
         /// <summary>
         /// Returns the next full moon given a date
         /// </summary>
